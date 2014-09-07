@@ -67,7 +67,7 @@
     <p id="disablesong">disable song</p>
                 
     <script>
-        var someswag = Math.floor((Math.random() * 6) + 1);
+        var someswag = Math.floor((Math.random() * 7) + 1);
         var level = 1;
         var num = Math.floor((Math.random() * 5) + 1);
         var numswag = Math.floor((Math.random() * 5) + 1);
@@ -97,7 +97,9 @@
             case 6:
                 document.getElementById("audioswag").innerHTML = "<source src='gaben.mp3' type='audio/mpeg'>"
                 break;
-                
+            case 7:
+                document.getElementById("audioswag").innerHTML = "<source src='kawaiirap.mp3' type='audio/mpeg'>"
+                break;
         }
         
         switch(titleswag){
